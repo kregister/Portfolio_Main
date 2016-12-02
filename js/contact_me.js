@@ -40,7 +40,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:Me@KatieRegister.com?Subject=Message_Me from myprogrammingblog.com'>Me@KatieRegister.com</a> ? Sorry for the inconvenience!");
+            	$('#success > .alert-danger').append("<strong>Sorry "+firstName+" it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:katie.register@me.com?Subject=Message_Me from myprogrammingblog.com'>katie.register@me.com</a> ? Sorry for the inconvenience!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
