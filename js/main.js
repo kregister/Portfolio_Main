@@ -91,13 +91,13 @@ $(document).ready(function() {
 
 
     /* VEGAS Home Slider */
-	
+
 	    $('#page-welcome').vegas({
         slides: [
-            { src: 'img/slider/01.jpg' },
-            { src: 'img/slider/02.jpg' },
-            { src: 'img/slider/03.jpg' },
-			{ src: 'img/slider/04.jpg' }
+            { src: 'img/slider/Château_de_la_Mothe.jpg' },
+            { src: 'img/slider/compImg.jpg' },
+            { src: 'img/slider/skydiving-sun-stars_grunge.jpg' },
+			{ src: 'img/slider/WaterTree_grunge.jpg' }
         ],
     overlay: true
 });
