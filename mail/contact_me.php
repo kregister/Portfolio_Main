@@ -3,7 +3,9 @@
 // using SendGrid's PHP Library
 // https://github.com/sendgrid/sendgrid-php
 // If you are using Composer (recommended)
-require 'vendor/autoload.php';
+
+// require 'vendor/autoload.php';
+
 // If you are not using Composer
 // require("path/to/sendgrid-php/sendgrid-php.php");
 $from = new SendGrid\Email("Example User", "nick@gmail.com");
