@@ -14,7 +14,7 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
 
 // create email body and send it
-$to = 'katherine.l.register@gmail.com'; // put your email address here
+$to = 'abiam222@gmail.com'; // put your email address here
 $email_subject = "Contact form submitted by:  $name";
 $email_body = "You have received a new message. \n\n".
 				  " Here are the details:\n \nName: $name \n ".
