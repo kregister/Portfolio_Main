@@ -4,7 +4,7 @@
 // https://github.com/sendgrid/sendgrid-php
 // If you are using Composer (recommended)
 
-// require 'vendor/autoload.php';
+ require 'vendor/autoload.php';
 
 // If you are not using Composer
 // require("path/to/sendgrid-php/sendgrid-php.php");
