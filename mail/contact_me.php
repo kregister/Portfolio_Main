@@ -13,8 +13,7 @@ $subject = "Sending with SendGrid is Fun";
 $to = new SendGrid\Email("Example User", "abiam222@gmail.com");
 $content = new SendGrid\Content("text/plain", "and easy to do anywhere, even with PHP");
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
-$apiKey = getenv('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
-');
+$apiKey = getenv('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');
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
