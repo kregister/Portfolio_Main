@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 	    $('#page-welcome').vegas({
         slides: [
-            // { src: 'img/slider/Chateau.jpg' },
+            { src: 'img/slider/Chateau.jpg' },
             { src: 'img/slider/compImg.jpg' },
             { src: 'img/slider/BW_snow_river-trees.jpg' },
             { src: 'img/slider/skydiving-sun-stars_grunge.jpg' },
